@@ -1,9 +1,8 @@
 Here are my second session notes:
+
 Bit: 
 A bit is one binary digit , smallest data in computer system and can take either 0 or 1. 2 bits can carry 4 values which are 00(0), 01(1), 10(2), 11(3).
 This table shows the number of bits and their capacity (how many values they can take)
-
-
 
 number of bits
 number of values
