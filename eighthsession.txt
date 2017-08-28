@@ -1,0 +1,39 @@
+Here is my eighth session notes:
+
+Class:
+The term for creating a datatype.
+
+Object:
+The term that creates the variable.
+
+Fields:
+The class properties are actually called Fields  in Java terminology.
+
+Methods:
+Actions(verbs) are actually called Methods in Java terminology.
+
+Fields and Methods:
+A class will have both fields and methods.
+
+Connecting class methods and class fields:
+We have both fields ( like name, horsePower in Car ) and methods ( start and stop in Car). Lets see what is the connection between them.
+Lets write a below program
+Open Eclipse
+New Java Project and name it as CarFieldMethodConnectionSample
+Create Application (with public static void main checked)
+Create Car class
+Fill the Car class like below
+Fill the Application class in main method like below
+Run the program and you will see below output
+
+When you run the program sometimes you can’t see which car you runned, so in order to fix that you can name the variables and the methods so you can run the program and know which one you ran.
+
+Boolean:
+We have learned Java given types int, String and double. Lets visit a new kind of data type which is given by Java called boolean. This data type is used when your data value can take only yes or no. Like did you go to school? you have either yes or no. Are you taking chemistry class this year? yes or no.
+
+Summary
+fields in class are nothing but variables in class
+action in class are nothing but methods in class
+methods in class can access the fields declared in class.
+boolean variables are used to store values yes or no types.
+
