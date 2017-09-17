@@ -1,0 +1,126 @@
+Here is my second session notes.
+
+Bit: 
+
+A bit is one binary digit , smallest data in computer system and can take either 0 or 1. 2 bits can carry 4 values which are 00(0), 01(1), 10(2), 11(3).
+
+This table shows the number of bits and their capacity (how many values they can take)
+
+
+
+number of bits
+
+number of values
+
+Value                              
+
+1 (2^1)
+
+2
+
+0-1
+
+2 (2^2)
+
+4
+
+0-3                  
+
+3 (2^3)
+
+8
+
+0-7
+
+4 (2^4)
+
+16
+
+0-15
+
+5 (2^5)
+
+32
+
+0-31
+
+6 (2^6)
+
+64
+
+0-63
+
+7 (2^7)
+
+128
+
+0-127
+
+8 (2^8)
+
+256
+
+0-128
+
+
+
+
+
+
+
+**If you see above 8 bits can carry 256 values which are plenty for alphabets+numbers+other characters. All ASCII can fit into these 256 values.**
+
+
+
+Earlier computers grouped 8 bits and were called Byte
+
+
+
+
+
+info
+
+description
+
+8 bits
+
+1 bytes
+
+1024 bytes (10^3)
+
+1 Kilo byte ( it is not 1000 as it is exponent of 2)
+
+1024*1024 bytes (10^6)
+
+1 Mega byte
+
+1024 * 1024 * 1024 bytes (10^9)
+
+1 Giga byte
+
+
+
+
+
+Folders and Files:
+
+file is group of bytes ( you may see characters, numbers but they are stored in binary which you already know). They have different types of files in windows. .txt is text file which you can create using notepad.exe (which is another kind of file .exe) (Software/Program/Application also in windows called executable). Executable (.exe) are programs which you can use to do some stuff. Some of the executables in windows are notepad.exe (creating text files), cmd.exe (command prompt where you can type windows command), chome.exe (browser) , calc.exe (calculator). There are .png, .jpg picture files, .mp4 videos, .html (HTML files).
+
+folder is collection of files and also can contain folders.
+
+
+
+Command Prompt:
+
+Command prompt is where you can type commands to do some stuff in windows.
+
+
+
+Absolute Path:
+
+The complete directory when you are in 0709 is c:\class\math\algebra\0709. you can go to root at any time by typing c:\ at any place. Also you can go to any directory from anywhere by completely typing the path. for example if you are in c:\class\math\algebra\0709 and want to go to english you can go by typing c:\class\english like below.
+
+Eclipse
+
+Eclipse is another Software, where we can use to develop our own programs(software). Eclipse is diffrent kind of program where it is used to develop again programs compared to other programs like notepad, calc where we use them. That is why we call them IDE (Interactive Development Environment).
+
