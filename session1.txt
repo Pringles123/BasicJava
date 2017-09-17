@@ -1,7 +1,7 @@
 Here are my first session notes.
 What is a Computer?
 
-A computer = hardware + software
+hardware + software = Computer
 
 
 
