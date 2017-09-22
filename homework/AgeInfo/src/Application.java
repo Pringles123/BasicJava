@@ -1,0 +1,22 @@
+
+public class Application {
+
+	public static void main(String[] args) {
+		System.out.println("AgeInfo homework -");
+		System.out.println();
+		int age = 72;
+
+		if (age < 13) {
+			System.out.println("Your age is " + age + ", that means you are a kid.");
+		} else if (age >= 13 & age <= 19) {
+			System.out.println("your age is " + age + ", that means you are a teenager.");
+		} else if (age >= 20 & age <= 60) {
+			System.out.println("your age is " + age + ", that means you are an adult.");
+
+		} else {
+			System.out.println("your age is " + age +", that means you are a senior citizen.");
+		}
+		
+	}
+
+}
