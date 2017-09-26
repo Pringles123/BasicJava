@@ -1,0 +1,33 @@
+Here are my session 9 notes:
+
+Class:
+- template, blueprint, cookie cutter, recipe, your custom data type
+- contains fields (properties), methods (actions)
+- methods in classes can access fields in class
+- singular noun; person, animal, car
+- Syntax
+
+Object:
+- Creating a variable of class is like creating a cookie out of a cookie cutter.
+
+Fields:
+- Properties in class
+- They are variables in class. Once you ddefine a variable it will become field.
+- Syntax
+
+Methods:
+- actions
+- verbs
+- syntax
+
+Connection between methods and fields in class:
+- Methods in class can access fields
+- fields are called instance variables
+
+Boolean:
+- used to store either yes or no (true/false)
+- Syntax
+
+Encapsulation:
+- Today we are going to learn one of the Object Oriented Programming (OOPs in short). Java language is based on Object Oriented Programming where everything is object (you know now what means by object which is nothing but creating a variable with a new keyword for a given class.)
+
