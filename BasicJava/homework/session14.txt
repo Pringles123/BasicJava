@@ -1,0 +1,155 @@
+Here are my session 14 notes:
+
+
+Method Overloading:
+- Lets learn what we mean by overloading
+- Start with writing some method here. Create a project(choose your own name) and create Application class with main method in it.
+    public class Application{
+        public static void main(String[] args){
+            System.out.println("We are going to learn method overloading today");
+        }
+    }
+Create a class called Student like below
+    public class Student{
+        string name;
+
+        Student(String name){
+            this.name = name;
+        }
+    }
+Reading a given book
+Now we ask a student to read a given book
+    public class Student{
+        void readBook(String bookName){
+            System.out.println("Reading book:" + bookName)
+        }
+    }
+Lets ask a student to read "Harry Potter" book
+    public class Application{
+        public static void main(String[] args){
+            Student s1 = new Student();
+            s1.readBook("Harry Potter");
+        }
+    }
+Reading a given book for given number of minutes
+Now we will ask student to read some book and also say how long he/she needs to read this book
+    public class Student{
+        void readBook(String bookName){
+            System.out.println("Reading book:" + bookName)
+        }
+
+        void readBook(String bookName, int minutesToRead){
+            System.out.println("Reading book:" + bookName + " for " + minutesToRead);
+        }
+    }
+Lets ask a student to read "Harry Potter" book
+    public class Application{
+        public static void main(String[] args){
+            Student s1 = new Student();
+            s1.readBook("Harry Potter");        // ask student to read "Harry potter"
+            s1.readBook("Harry Potter", 30);    // ask student to read "Harry potter" for 30 minutes.
+        }
+    }
+Reading a given book for given number of minutes and also ask him/her to read certain pages
+Not only we specify book to read but also minimum number of minutes and minimum number of pages.
+    public class Student{
+        void readBook(String bookName){
+            System.out.println("Reading book:" + bookName)
+        }
+
+        void readBook(String bookName, int minutesToRead){
+            System.out.println("Reading book:" + bookName + " for " + minutesToRead);
+        }
+
+        void readBook(String bookName, int minutesToRead, int pagesToRead){
+            System.out.println("Reading book:" + bookName + " for " + minutesToRead + " and " + pagesToRead);
+        }
+    }
+Lets ask to read "Harry Potter" for 30 minutes and also 20 pages
+    public class Application{
+        public static void main(String[] args){
+            Student s1 = new Student();
+            s1.readBook("Harry Potter");        // ask student to read "Harry potter"
+            s1.readBook("Harry Potter", 30);    // ask student to read "Harry potter" for 30 minutes.
+            s1.readBook("Harry Potter", 30, 20);    // read "Harry Potter" for 30mintes and 20 pages.
+        }
+    }
+Lets give choice to read a book and number minutes and pages
+    public class Student{
+        void readBook(String bookName){
+            System.out.println("Reading book:" + bookName)
+        }
+
+        void readBook(String bookName, int minutesToRead){
+            System.out.println("Reading book:" + bookName + " for " + minutesToRead);
+        }
+
+        void readBook(String bookName, int minutesToRead, int pagesToRead){
+            System.out.println("Reading book:" + bookName + " for " + minutesToRead + " and " + pagesToRead);
+        }
+
+        void readBook(){
+            System.out.println("Reading my own book for whatever minutes I want and pages");
+        }
+    }
+Lets ask him/her to read their own choice of book
+    public class Application{
+        public static void main(String[] args){
+            Student s1 = new Student();
+            s1.readBook("Harry Potter");        // ask student to read "Harry potter"
+            s1.readBook("Harry Potter", 30);    // ask student to read "Harry potter" for 30 minutes.
+            s1.readBook("Harry Potter", 30, 20);    // read "Harry Potter" for 30mintes and 20 pages.
+            s1.readBook();      // choice of book, minutes, pages.
+        }
+    }
+
+
+Char data type:
+- We have learned so far below data types
+- String (Used for values with characters, numbers )
+- int( used for numbers only)
+- double ( used for numbers with decimals)
+- boolean ( used for either true or false
+
+Instructions in Method body:
+What I see is some of them getting confused where a instruction to computer ( like System.out.println("")) will go.
+Java Project contains
+Multiple classes 
+A class contains 
+variables
+constructor
+methods A method contains 
+instructions
+Method body ( body is the part which begins with { and ends with }) is where all instructions should go. That means
+    class Student{
+
+        void readBook(String bookName){
+
+            // Instructions go here (between { and } )
+
+        }
+
+        // No instructions (outside {})
+    }
+
+Instructions in Method body
+What I see is some of them getting confused where a instruction to computer ( like System.out.println("")) will go.
+Java Project contains
+Multiple classes 
+A class contains 
+variables
+constructor
+methods A method contains 
+instructions
+Method body ( body is the part which begins with { and ends with }) is where all instructions should go. That means
+    class Student{
+
+        void readBook(String bookName){
+
+            // Instructions go here (between { and } )
+
+        }
+
+        // No instructions (outside {})
+    }
+
