@@ -1,0 +1,14 @@
+
+public class application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Person p1 = new Person("Prisha", 12);
+		boolean canDrive = p1.canDrive();
+		Person p2 = new Person("Ballika", 13);
+		canDrive = p2.canDrive();
+		
+	}
+
+}

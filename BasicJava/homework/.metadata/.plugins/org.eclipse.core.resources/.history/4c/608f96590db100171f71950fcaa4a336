@@ -1,0 +1,24 @@
+
+public class application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Person p1 = new Person("Prisha", 12);
+		boolean canDrive = p1.canDrive();
+
+		if (canDrive) {
+			System.out.println(p1.name + ", WHOOP, WHOOP, YOU  CAN DRIVE!!");
+		} else {
+			System.out.println(p1.name + ", sorry you  cannot drive.");
+		}
+
+		Person p2 = new Person("Ballika", 73);
+		canDrive = p2.canDrive();
+		if (canDrive) {
+			System.out.println(p2.name + ", WHOOP, WHOOP, YOU  CAN DRIVE!!");
+		} else {
+			System.out.println(p2.name + ", sorry, you cannot drive.");
+		}
+	}
+}

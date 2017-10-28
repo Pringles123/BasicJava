@@ -1,0 +1,24 @@
+
+public class Student {
+
+	String name;
+	Student(String inputname) {
+		
+		name = inputname;
+		
+	}
+
+	int readBook(String bookName, int minutestoread){
+		
+		System.out.println("Reading Book: HarryPotter, Minutes to read: 30");
+		
+		int actualminutesRead = 25;
+		return actualminutesRead;
+	}
+	void doHomework() {
+
+		System.out.println("doing Homework");
+		
+		
+	}
+}

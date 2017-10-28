@@ -1,0 +1,16 @@
+
+public class Student {
+
+	String name;
+	Student(String inputname) {
+		
+		name = inputname;
+	}
+
+	void doHomework() {
+
+		System.out.println("doing Homework");
+		
+		
+	}
+}

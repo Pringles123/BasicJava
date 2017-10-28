@@ -1,0 +1,70 @@
+Here are my session 13 notes:
+
+Recap:
+- We have learned about Constructor
+- Constructor will allow to create object with some starting values.
+- We will revisit once again Constructor after going through some methods.
+
+Steps for writing method signature:
+
+1)First you have to ask for method name
+In above these 
+	doHomeWork
+	readBook
+2)Then you have to ask for what is inputs 
+	for doHomeWork there are no inputs
+	for readBook there is one input called bookName and then you have to ask for what is its data type
+3)Then you have to ask for what it gives back 
+	for doHomeWork there is no output
+for readBook the output is number of minutes read. Now we are ready to write the method signature
+method name
+    doHomeWork
+    readBook
+Write open and close parenthesis
+    doHomeWork()
+    readBook()
+Write open { and close }
+    doHomeWork(){
+
+    }
+
+    readBook(){
+
+    }
+Write any inputs in parenthesis. If no inputs then no need to write anything
+    doHomeWork(){
+
+    }
+
+    readBook(String bookName){
+
+    }
+Write output data type (here it is the data type and not the variable). If it is not returning anything then you have to write void
+    void doHomeWork(){
+
+    }
+
+    int readBook(String bookName){
+
+    }
+Write a return statement which matches with data type .
+    void doHomeWork(){
+            // No return statement here.
+    }
+
+    int readBook(String bookName){
+
+        return 10;      // The value returned (10 here) should match with data type(int here) mentioned.
+    }
+
+Now complete the logic if any in the method
+
+Constructor revisited:
+
+We have seen constructor earlier. Lets revisit one more time as we have learned about methods.
+A constructor is
+method ( it has inputs just like any other method)
+special method 
+Its name is same as class type
+It does not have return data type ( you cannot say void also);
+

@@ -1,0 +1,24 @@
+
+public class Student {
+
+	String name;
+	Student(String inputname) {
+		
+		name = inputname;
+		
+	}
+
+	int readBook(String bookName){
+		
+		System.out.println("Harry Poteer");
+		
+		int minutesRead = 10;
+		return minutesRead;
+	}
+	void doHomework() {
+
+		System.out.println("doing Homework");
+		
+		
+	}
+}
